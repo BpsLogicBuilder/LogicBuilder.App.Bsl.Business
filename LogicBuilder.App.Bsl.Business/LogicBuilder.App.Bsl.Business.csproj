@@ -31,6 +31,11 @@
   </PropertyGroup>
 
 	<ItemGroup>
+		<None Include="..\README.md" Pack="true" PackagePath="\" />
+		<None Include="..\icon.png" Pack="true" PackagePath="\" Visible="False" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="LogicBuilder.App.Utils" Version="1.0.1" />
 		<PackageReference Include="LogicBuilder.Domain" Version="8.0.1" />
 		<PackageReference Include="LogicBuilder.Structures" Version="8.0.2" />
