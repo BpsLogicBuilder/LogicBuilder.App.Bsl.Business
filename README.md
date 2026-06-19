@@ -218,7 +218,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Links
 
 - [GitHub Repository](https://github.com/BpsLogicBuilder/LogicBuilder.App.Bsl.Business)
-- [NuGet Package](https://www.nuget.org/packages/LogicBuilder.App.Bsl.Business/)
 - [LogicBuilder Project](https://github.com/BpsLogicBuilder/LogicBuilder)
 
 ## Support
