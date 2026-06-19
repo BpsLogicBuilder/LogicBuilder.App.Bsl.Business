@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+		<PackageId>LogicBuilder.App.Bsl.Business</PackageId>
+		<Authors>BlaiseD</Authors>
+		<LangVersion>latest</LangVersion>
+		<Nullable>enable</Nullable>
+		<WarningsAsErrors>true</WarningsAsErrors>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<EmbedUntrackedSources>true</EmbedUntrackedSources>
+		<Description>This library holds the resquest and response structures which a LogicBuilder business service depends on.</Description>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<PackageReleaseNotes>First release.</PackageReleaseNotes>
+		<PackageTags>linq expressions</PackageTags>
+		<Copyright>Copyright © BPS 2026</Copyright>
+		<RepositoryUrl>https://github.com/BpsLogicBuilder/LogicBuilder.App.Bsl.Business</RepositoryUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/BpsLogicBuilder/LogicBuilder</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageIcon>icon.png</PackageIcon>
+		<AssemblyOriginatorKeyFile>..\LogicBuilder.Rules.snk</AssemblyOriginatorKeyFile>
+		<SignAssembly>true</SignAssembly>
+		<MinVerTagPrefix>v</MinVerTagPrefix>
+		<DebugType>embedded</DebugType>
+		<Deterministic>true</Deterministic>
+		<EmbedAllSources>true</EmbedAllSources>
+		<ContinuousIntegrationBuild Condition="'$(GITHUB_ACTIONS)' == 'true'">true</ContinuousIntegrationBuild>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="LogicBuilder.App.Utils" Version="1.0.1" />
+		<PackageReference Include="LogicBuilder.Domain" Version="8.0.1" />
+		<PackageReference Include="LogicBuilder.Structures" Version="8.0.2" />
+		<PackageReference Include="MinVer" Version="7.0.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="10.0.300" PrivateAssets="All" />
+	</ItemGroup>
+
+</Project>
