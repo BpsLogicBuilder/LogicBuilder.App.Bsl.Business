@@ -36,7 +36,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="LogicBuilder.App.Utils" Version="1.0.1" />
+		<PackageReference Include="LogicBuilder.Attributes" Version="2.0.6" />
 		<PackageReference Include="LogicBuilder.Domain" Version="8.0.1" />
 		<PackageReference Include="LogicBuilder.Structures" Version="8.0.2" />
 		<PackageReference Include="MinVer" Version="7.0.0">
